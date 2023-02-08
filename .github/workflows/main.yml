@@ -4,7 +4,7 @@ name: Telegram notification
 
 # Controls when the action will run. Triggers the workflow on pull request
 on:
-  pull_request:
+  push:
     branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -27,4 +27,4 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message: |
-            A new PR is raised [View all PR's](https://github.com/<user>/<repo>/pulls)
+            GOIT LMS Front-office release 
