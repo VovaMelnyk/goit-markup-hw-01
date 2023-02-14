@@ -1,11 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Telegram notification
+name: Telegram notification master
 
 # Controls when the action will run. Triggers the workflow on pull request
 on:
   push:
-    branches: [main, develop]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
