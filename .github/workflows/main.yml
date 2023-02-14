@@ -27,4 +27,4 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message: |
-            GOIT LMS Front-office will be released and will be able to test after 5 minutes
+            GOIT LMS Front-office PROD will be released and will be able to test after 5 minutes
